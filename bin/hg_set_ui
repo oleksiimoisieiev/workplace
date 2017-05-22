@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cat << EOM >> ./.hg/hgrc
+[ui]
+username = Oleksii Moisieiev <omoisieiev@intropro.com.ua>
+
+[extensions]
+purge =
+rebase =
+graphlog = 
+shelve =
+
+EOM

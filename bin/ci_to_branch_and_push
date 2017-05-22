@@ -1,0 +1,7 @@
+#!/bin/bash 
+typeset -r _branch=$1
+
+git co -b $_branch 
+git ci -a
+
+git push origin $_branch:$_branch 

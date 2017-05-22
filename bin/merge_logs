@@ -1,0 +1,20 @@
+#!/bin/bash
+
+rm -rf ./messages_full.log
+
+cat ./messages.log.01 > ./messages_full.log
+cat ./messages.log.02 >> ./messages_full.log
+cat ./messages.log.03 >> ./messages_full.log
+cat ./messages.log.04 >> ./messages_full.log
+cat ./messages.log.05 >> ./messages_full.log
+cat ./messages.log.06 >> ./messages_full.log
+cat ./messages.log.07 >> ./messages_full.log
+cat ./messages.log.08 >> ./messages_full.log
+cat ./messages.log.09 >> ./messages_full.log
+i=10
+while [ $i -le 580 ] ; do 
+    cat ./messages.log.$i >> ./messages_full.log
+    i=$((i+1))
+done    
+
+cat ./messages.log >> ./messages_full.log

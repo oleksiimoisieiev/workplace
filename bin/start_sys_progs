@@ -1,0 +1,14 @@
+#!/bin/bash
+set -x
+run_c() {
+    local name="$1" cmd=(${@:2})
+    [[ `ps axf | grep -c $name` -le 1 ]] && {
+        (eval "${cmd[@]} & >/dev/null 2>&1")
+    }
+}
+
+run_c thunderbird thunderbird
+run_c skype skype
+run_c chromium-browser chromium-browser
+run_c eclipse /cryptfs/eclipse/eclipse
+

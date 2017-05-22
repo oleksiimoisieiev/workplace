@@ -1,0 +1,15 @@
+[user]
+	name = Alexey Moiseev
+	email = alexey.moiseev@softheme.com
+[alias]
+  st = status -uno
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  ll = log --graph --pretty=format:'%Cred%h -%d %s (%cr) <%an>%Creset' --abbrev-commit --date=short --branches
+[push]
+	default = matching
+[core]
+	editor = vi
