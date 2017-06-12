@@ -86,3 +86,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias buld="sshpass -p 123456 ssh builder@192.168.22.108"
 alias ch="chmod +x"
+alias dimages="docker images"  
