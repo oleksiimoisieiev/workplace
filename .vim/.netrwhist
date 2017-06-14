@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/omoiseev/work/OcNOS/hsl/ipc/user'
+let g:netrw_dirhist_2='/home/omoiseev/work/Zeb/ZebIC'
+let g:netrw_dirhist_3='/home/omoiseev/work/Zeb/ZebIC/hsl'
+let g:netrw_dirhist_4='/home/omoiseev/work/Zeb/ZebIC'
+let g:netrw_dirhist_5='/home/omoiseev/work/OcNOS'
+let g:netrw_dirhist_6='/home/omoiseev/work/OcNOS/libhsl'
+let g:netrw_dirhist_7='/home/omoiseev/work/OcNOS'
+let g:netrw_dirhist_8='/home/omoiseev/work/OcNOS/libhsl'
+let g:netrw_dirhist_9='/home/omoiseev/work/Ethernity/enet_adaptor'

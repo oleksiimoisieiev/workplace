@@ -85,5 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias buld="sshpass -p 123456 ssh builder@192.168.22.108"
+alias gitsrv="sshpass -p adz742dop2,, ssh gitserver"
 alias ch="chmod +x"
 alias dimages="docker images"  

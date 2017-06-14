@@ -1,8 +1,14 @@
 #!/bin/bash
 
-cp -rf .vim ~/
-cp -rf .zshrc ~/
-cp -rf .ssh ~/
-cp -rf .gitconfig ~/
+get() {
+ cp -rf ~/$1 ./
+}
 
-cp -rf bin ~/
+get  .vim 
+get  .zshrc
+get .ssh 
+get .gitconfig 
+
+get bin
+
+git status
