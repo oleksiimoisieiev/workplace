@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+docker ps | grep -e "ipisw" -e "hs1" -e "hs2" | cut -d " " -f 1 | while read line ; do
+    echo Removinf $line
+    docker rm -f $line
+done
