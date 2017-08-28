@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git pull --rebase
+
+
+git submodule foreach --recursive git fetch
+
+git submodule update --recursive --remote
