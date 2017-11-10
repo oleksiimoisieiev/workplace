@@ -9,6 +9,7 @@ run_c() {
 
 run_c thunderbird thunderbird
 run_c skype skype
-run_c chromium-browser chromium-browser
-run_c eclipse /cryptfs/eclipse/eclipse
+run_c google-chrome google-chrome
+run_c virt-manager virt-manager
+#run_c eclipse /cryptfs/eclipse/eclipse
 

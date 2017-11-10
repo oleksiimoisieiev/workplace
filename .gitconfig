@@ -1,8 +1,9 @@
 [user]
-	name = Alexey Moiseev
-	email = alexey.moiseev@softheme.com
+	name = Oleksii Moisieiev
+	email = amoiseev@larch-networks.com
 [alias]
   st = status -uno
+  pr = pull --rebase
   ci = commit
   br = branch
   co = checkout

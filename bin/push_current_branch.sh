@@ -3,7 +3,7 @@
 push_git() {
 current_branch=`git br | awk '/\*/ {print $2}'`
 
-git push origin -f $current_branch:$current_branch
+git push origin $current_branch:$current_branch
 }
 
 push_hg() {
