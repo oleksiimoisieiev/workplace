@@ -4,10 +4,11 @@ get() {
  cp -rf ~/$1 ./
 }
 
-get  .vim 
+
+get  .vim
 get  .zshrc
-get .ssh 
-get .gitconfig 
+get .ssh
+get .gitconfig
 
 get bin
 

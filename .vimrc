@@ -75,6 +75,8 @@ filetype plugin indent on    " required
 :set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 :set hlsearch
 
+" Try the following if your GUI uses a dark background.
+:highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 
 :map <C-C> :VimFilerExplorer <CR>
 
