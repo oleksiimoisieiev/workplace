@@ -13,4 +13,6 @@
 [push]
 	default = matching
 [core]
-	editor = vim
+    editor = vim
+[color]
+    ui = true
