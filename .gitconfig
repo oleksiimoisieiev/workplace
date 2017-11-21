@@ -13,4 +13,4 @@
 [push]
 	default = matching
 [core]
-	editor = vi
+	editor = vim
