@@ -9,6 +9,7 @@
   co = checkout
   df = diff
   lg = log -p
+  rh = reset --hard
   ll = log --graph --pretty=format:'%Cred%h -%d %s (%cr) <%an>%Creset' --abbrev-commit --date=short --branches
 [push]
 	default = matching
