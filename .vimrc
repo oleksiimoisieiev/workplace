@@ -65,18 +65,28 @@ filetype plugin indent on    " required
 "Line numbers
 :set number
 
+:set tags=tags;
+
 :let g:vimfiler_as_default_explorer = 1
 
 :set nocompatible   " Disable vi-compatibility
 :set laststatus=2   " Always show the statusline
 :set encoding=utf-8 " Necessary to show Unicode glyphsll Vex
-:set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+:set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
 :set list!
 :set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 :set hlsearch
+:set colorcolumn=110
+:highlight ColorColumn ctermbg=darkgray
 
-" Try the following if your GUI uses a dark background.
-:highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+augroup project
+    autocmd!
+    autocmd BufRead,BufNewFile *.h,*.c set filetype=c.doxygen
+augroup END
 
 :map <C-C> :VimFilerExplorer <CR>
+:map <F4> :tabnew <CR>
+:map <F5> :tabnext <CR>
+:map <F6> :tabprev <CR>
 
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
