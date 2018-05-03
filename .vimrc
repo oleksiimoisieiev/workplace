@@ -68,7 +68,7 @@ filetype plugin indent on    " required
 :set tags=tags;
 
 :let g:vimfiler_as_default_explorer = 1
-
+:let g:vimfilter_enable_auto_cd = 1
 :set nocompatible   " Disable vi-compatibility
 :set laststatus=2   " Always show the statusline
 :set encoding=utf-8 " Necessary to show Unicode glyphsll Vex
