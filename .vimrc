@@ -86,7 +86,7 @@ augroup END
 
 :map <C-C> :VimFilerExplorer <CR>
 :map <F4> :tabnew <CR>
-:map <F5> :tabnext <CR>
-:map <F6> :tabprev <CR>
+:map <F6> :tabnext <CR>
+:map <F5> :tabprev <CR>
 
 let g:clang_library_path='/usr/lib/llvm-3.8/lib'
