@@ -18,7 +18,7 @@ highlight ColorColumn ctermbg=darkgray
 map <F3> :tabnew <CR>
 map <F5> :tabprev <CR>
 map <F6> :tabnext <CR>
-
+:map <C-C> :EXProject <CR>
 " Find file in current directory and edit it.
 function! Find(name)
   let l:list=system("find . -name '".a:name."' | perl -ne 'print \"$.\\t$_\"'")
