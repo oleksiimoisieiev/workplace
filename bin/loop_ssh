@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while [ 1 ]; do
+  sshpass -p $2 ssh $1
+  echo "."
+  sleep 1
+done
