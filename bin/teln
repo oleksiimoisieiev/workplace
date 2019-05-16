@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+set port [lindex $argv 0 ]
+spawn telnet 192.168.20.25 70$port
+
+expect "Digi CM 48 Login :" { send "net_critical\r" }
+expect "Digi CM 48 Password :" { send "123\r" }
+
+interact
