@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/home/amoiseev/bin:$PATH
+[ -z "$RANGER_LEVEL" ] || { export PS1="(ranger)$PS1" }
 ranger() {
     if [ -z "$RANGER_LEVEL" ]; then
         /usr/bin/ranger "$@"
