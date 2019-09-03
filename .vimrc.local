@@ -14,11 +14,12 @@ set list!
 set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 set hlsearch
 set colorcolumn=110
+set autoread
 highlight ColorColumn ctermbg=darkgray
 map <F3> :tabnew <CR>
 map <F5> :tabprev <CR>
 map <F6> :tabnext <CR>
-:map <C-C> :EXProject <CR>
+:map <C-C> :NERDTree <CR>
 " Find file in current directory and edit it.
 function! Find(name)
   let l:list=system("find . -name '".a:name."' | perl -ne 'print \"$.\\t$_\"'")
