@@ -6,4 +6,5 @@ git pull --rebase
 #git submodule foreach --recursive git fetch
 
 git submodule update --recursive --remote
-#git submodule update
+git submodule update --recursive
+

@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+sshpass -p "admin" ssh -o StrictHostKeychecking=no admin@localhost -p $1

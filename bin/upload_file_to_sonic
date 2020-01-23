@@ -1,0 +1,29 @@
+#!/bin/bash
+# =============================================================================
+port=$1
+path=$2
+container=$3
+[ -z $port ] && { echo "Port not set"; exit 1; }
+[ -z $path ] && { echo "path not set"; exit 1; }
+[ -z $container ] && { echo "container not set"; exit 1; }
+ip="localhost"
+file=${path##*/}
+
+do_cmd()
+{
+        sshpass -p "admin" ssh -o StrictHostKeychecking=no admin@localhost -p $port $@
+}
+
+upload_file()
+{
+    set -e
+    local filename=$1 filepath=$2
+        scp -P $port $filepath admin@localhost:/home/admin/
+
+    do_cmd ls -la /home/admin
+    do_cmd docker cp /home/admin/$filename $container:/root/
+    do_cmd docker exec $container ls -la /root/
+    do_cmd docker exec $container dpkg -i /root/$filename
+}
+
+    upload_file $file $path

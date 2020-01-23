@@ -1,0 +1,11 @@
+#!/bin/bash
+
+hs=$1
+me="amoiseev"
+[ -z $hs ] && {
+    echo "error"
+    exit 1
+}
+
+docker exec -it $(docker ps | grep ${me}_${hs} | awk -F ' ' '{print $10}') bash
+
