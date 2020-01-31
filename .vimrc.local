@@ -1,7 +1,6 @@
 " This file will be loaded at the end of .vimrc.
 " This file is designed to add your own vim scripts or override the exVim's .vimrc settings.
 
-
 set number
 set tags=tags;
 let g:vimfiler_as_default_explorer = 1
@@ -15,10 +14,12 @@ set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 set hlsearch
 set colorcolumn=110
 set autoread
+set autowriteall
 highlight ColorColumn ctermbg=darkgray
 map <F3> :tabnew <CR>
 map <F5> :tabprev <CR>
 map <F6> :tabnext <CR>
+autocmd TextChanged,TextChangedI <buffer> silent write
 :map <C-C> :NERDTree <CR>
 " Find file in current directory and edit it.
 function! Find(name)
