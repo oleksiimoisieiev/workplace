@@ -2,11 +2,11 @@
     branch = false
 [user]
 	name = Oleksii Moisieiev
-	email = amoiseev@larch-networks.com
+	email = oleksii_moisieiev@epam.com
 [alias]
   st = status -uno
   pr = pull --rebase
-  ci = commit
+  ci = commit -s
   br = branch
   co = checkout
   df = diff
@@ -19,3 +19,10 @@
 	default = matching
 [core]
 	editor = vi
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
