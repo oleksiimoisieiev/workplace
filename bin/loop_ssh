@@ -1,7 +1,8 @@
 #!/bin/bash
 
 while [ 1 ]; do
-  sshpass -p $2 ssh $1
+#    ssh $1
+  sshpass -p $2  ssh -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" $1
   echo "."
   sleep 1
 done
