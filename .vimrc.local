@@ -19,7 +19,6 @@ highlight ColorColumn ctermbg=darkgray
 map <F3> :tabnew <CR>
 map <F5> :tabprev <CR>
 map <F6> :tabnext <CR>
-autocmd TextChanged,TextChangedI <buffer> silent write
 :map <C-C> :NERDTree <CR>
 " Find file in current directory and edit it.
 function! Find(name)
@@ -53,3 +52,6 @@ function! Find(name)
   execute ":e ".l:line
 endfunction
 command! -nargs=1 Find :call Find("<args>")
+
+autocmd TextChanged,TextChangedI <buffer> silent write
+autocmd BufWritePre *.py !yapf -i <afile>
