@@ -54,4 +54,4 @@ endfunction
 command! -nargs=1 Find :call Find("<args>")
 
 autocmd TextChanged,TextChangedI <buffer> silent write
-autocmd BufWritePre *.py !yapf -i <afile>
+;autocmd BufWritePost *.py !yapf -i <afile> :e
