@@ -1,0 +1,13 @@
+(undo-tree-save-format-version . 1)
+"980baa313e05f2f00e762953683dcbd1388ce029"
+[nil nil nil nil (25460 57919 124397 512000) 0 nil]
+([nil nil ((#("echo \"directory .\"
+" 0 4 (fontified t face font-lock-builtin-face) 4 5 (fontified t) 5 18 (fontified t face font-lock-string-face) 18 19 (fontified t)) . 71) (undo-tree-id1 . -19) (t 25460 57636 872240 230000)) nil (25460 57919 124396 56000) 0 nil])
+([nil nil ((#("echo \"add-symbol-file-auto ../apps/app-httpreply/build/httpreply_xen-arm64.elf.dbg\"
+" 0 1 (fontified t ws-butler-chg delete face font-lock-builtin-face) 1 4 (fontified t face font-lock-builtin-face) 4 5 (fontified t) 5 83 (fontified t face font-lock-string-face) 83 84 (fontified t)) . 71)) nil (25460 57919 124393 482000) 0 nil])
+([nil nil ((#("echo \"add-symbol-file /opt/devroot_arm64/xen-4.16-imx/xen_qemu/xen/xen-syms\"
+" 0 1 (fontified t ws-butler-chg delete face font-lock-builtin-face) 1 4 (fontified t face font-lock-builtin-face) 4 5 (fontified t) 5 76 (fontified t face font-lock-string-face) 76 77 (fontified t)) . 71)) nil (25460 57919 124392 100000) 0 nil])
+([nil nil ((#("echo \"target remote localhost:3333\"
+" 0 1 (fontified t ws-butler-chg delete face font-lock-builtin-face) 1 4 (fontified t face font-lock-builtin-face) 4 5 (fontified t) 5 35 (fontified t face font-lock-string-face) 35 36 (fontified t)) . 71) (undo-tree-id0 . -36)) nil (25460 57919 124387 989000) 0 nil])
+([nil current ((100 . 105) (t 25460 57919 132285 430000)) nil (25460 57924 876807 949000) 0 nil])
+nil

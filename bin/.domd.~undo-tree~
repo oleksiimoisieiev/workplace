@@ -1,0 +1,32 @@
+(undo-tree-save-format-version . 1)
+"21471836ba3b9a2d49a343466d1d46d7dfa39b54"
+[nil nil nil nil (25473 8271 645057 596000) 0 nil]
+([nil nil ((200 . 202) (t 24679 3823 664253 361000)) nil (25473 8271 645056 263000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 255 . 256) (nil fontified nil 255 . 256) (nil fontified nil 243 . 255) (nil fontified nil 242 . 243) (nil fontified nil 238 . 242) (nil fontified nil 237 . 238) (nil fontified nil 211 . 237) (nil fontified nil 210 . 211) (nil fontified nil 202 . 210) (202 . 256)) nil (25473 8271 645054 427000) 0 nil])
+([nil nil ((79 . 80)) nil (25473 8271 645051 136000) 0 nil])
+([nil nil ((128 . 129)) nil (25473 8271 645050 23000) 0 nil])
+([nil nil ((#("0" 0 1 (face font-lock-variable-name-face fontified t ws-butler-chg chg)) . -243) (undo-tree-id1 . -1) 244) nil (25473 8271 645048 603000) 0 nil])
+([nil nil ((243 . 244)) nil (25473 8271 645046 250000) 0 nil])
+([nil nil ((#("0" 0 1 (face font-lock-string-face fontified t ws-butler-chg chg)) . -255) (undo-tree-id0 . -1) 256) nil (25473 8271 645044 147000) 0 nil])
+([nil nil ((255 . 256)) nil (25473 8271 645027 116000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . -281) (undo-tree-id9 . -1) 282 (t 25473 8271 658691 25000)) nil (25473 8520 350719 934000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t)) . -274) (undo-tree-id2 . -1) (#("$" 0 1 (fontified t)) . -275) (undo-tree-id3 . -1) (#("{" 0 1 (fontified t)) . -276) (undo-tree-id4 . -1) (#("D" 0 1 (face font-lock-variable-name-face fontified t)) . -277) (undo-tree-id5 . -1) (#("O" 0 1 (face font-lock-variable-name-face fontified t)) . -278) (undo-tree-id6 . -1) (#("M" 0 1 (face font-lock-variable-name-face fontified t)) . -279) (undo-tree-id7 . -1) (#("D" 0 1 (face font-lock-variable-name-face fontified t)) . -280) (undo-tree-id8 . -1) 281) nil (25473 8520 350715 837000) 0 nil])
+([nil nil ((308 . 316)) nil (25473 8520 350697 678000) 0 nil])
+([nil nil ((229 . 232) (t 25473 8520 365151 827000)) nil (25473 8574 928553 665000) 0 nil])
+([nil nil ((232 . 233)) nil (25473 8574 928552 296000) 0 nil])
+([nil nil ((#("l" 0 1 (face font-lock-string-face ws-butler-chg chg fontified t)) . -232) (undo-tree-id10 . -1) 233) nil (25473 8574 928550 334000) 0 nil])
+([nil nil ((232 . 234)) nil (25473 8574 928536 972000) 0 nil])
+([nil nil ((#("XEN_PROD=\"/home/amoiseev/work/aos/yocto\"
+" 0 8 (fontified t face font-lock-variable-name-face) 8 9 (fontified t) 9 40 (fontified t face font-lock-string-face) 40 41 (fontified t)) . 204) (t 25473 8574 942377 503000)) nil (25489 47703 767242 169000) 0 nil])
+([nil nil ((#("#XEN_PROD=\"/home/amoiseev/storage/work/xen_prod\"
+" 0 1 (fontified t face font-lock-comment-delimiter-face) 1 49 (fontified t face font-lock-comment-face)) . 79)) nil (25489 47703 767240 716000) 0 nil])
+([nil nil ((#("#DOMD=\"build/build/tmp/work/x86_64-xt-linux/domd-image-weston/1.0-r0/repo\"
+" 0 1 (fontified t ws-butler-chg delete face font-lock-comment-delimiter-face) 1 75 (fontified t face font-lock-comment-face)) . 79)) nil (25489 47703 767239 695000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -97) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) 98) nil (25489 47703 767238 271000) 0 nil])
+([nil nil ((13 . 14)) nil (25489 47703 767234 384000) 0 nil])
+([nil nil ((14 . 18)) nil (25489 47703 767233 263000) 0 nil])
+([nil nil ((18 . 30)) nil (25489 47703 767232 41000) 0 nil])
+([nil nil ((21 . 36) (#("~/bin/dom" 0 9 (fontified t ws-butler-chg chg)) . -21) (undo-tree-id1 . -9) (undo-tree-id2 . -6) 30) nil (25489 47703 767229 571000) 0 nil])
+([nil current ((35 . 36) (#(" " 0 1 (fontified t ws-butler-chg chg)) . 35) (undo-tree-id0 . -1) 36) nil (25489 47703 767220 882000) 0 nil])
+nil

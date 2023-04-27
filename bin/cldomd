@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source ~/bin/dom_path
+
+[ -z $1 ] && {
+    echo "add target"
+    exit 1
+}
+
+img=$@
+set --
+
+DOMD="build-domd"
+
+cd ${XEN_PROD}
+pwd
+source poky/oe-init-build-env ${DOMD}
+
+bitbake -c clean $img ; bitbake $img

@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/amoiseev/work/zephyr/simple_app/dom0/zephyr-dom0-xt
+
+gdb-multiarch --command=~/cmd_zephyr build/zephyr/zephyr.elf

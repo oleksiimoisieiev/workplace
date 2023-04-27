@@ -1,0 +1,21 @@
+(undo-tree-save-format-version . 1)
+"2b3456537bc7f6f46257e5cb47956df436aa49f9"
+[nil nil nil nil (25489 47614 493785 132000) 0 nil]
+([nil nil ((1 . 12) (t 25489 47586 90897 85000)) nil (25489 47614 493783 698000) 0 nil])
+([nil nil (("h" . -10) (undo-tree-id0 . -1) ("s" . -11) (undo-tree-id1 . -1) 12) nil (25489 47614 493774 52000) 0 nil])
+([nil nil ((10 . 12)) nil (25489 47614 493759 86000) 0 nil])
+([nil nil ((12 . 13)) nil (25489 47614 493757 92000) 0 nil])
+([nil nil ((nil fontified t 53 . 54) (nil fontified t 22 . 53) (nil fontified t 21 . 22) (nil fontified t 13 . 21) (13 . 54)) nil (25489 47614 493751 534000) 0 nil])
+([nil nil ((13 . 14) (t 25489 47614 508920 731000)) nil (25489 47661 968361 673000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 144 . 145) (nil fontified t 63 . 145) (nil fontified t 62 . 63) (nil fontified t 14 . 62) (nil fontified t 13 . 14) (13 . 145)) nil (25489 47685 24495 351000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 268 . 269) (nil fontified t 195 . 269) (nil fontified t 194 . 195) (nil fontified t 146 . 194) (nil fontified t 145 . 146) (145 . 269) (t 25489 47661 985215 685000)) nil (25489 47689 340409 761000) 0 nil] [nil nil ((nil rear-nonsticky nil 268 . 269) (nil fontified t 195 . 269) (nil fontified t 194 . 195) (nil fontified t 146 . 194) (nil fontified t 145 . 146) (145 . 269) (t 25489 47661 985215 685000)) ((#("#XEN_PROD=\"/home/amoiseev/storage/work/xen_prod\"
+#DOMD=\"build/build/tmp/work/x86_64-xt-linux/domd-image-weston/1.0-r0/repo\"
+" 0 1 (face font-lock-comment-delimiter-face fontified t) 1 49 (face font-lock-comment-face fontified t) 49 50 (face font-lock-comment-delimiter-face ws-butler-chg delete fontified t) 50 123 (face font-lock-comment-face fontified t) 123 124 (face font-lock-comment-face rear-nonsticky nil fontified t)) . 145) (undo-tree-id2 . -2) (undo-tree-id3 . -51) (undo-tree-id4 . -2) (undo-tree-id5 . -2) (nil fontified nil 145 . 146) (nil fontified nil 146 . 194) (nil fontified nil 194 . 195) (nil fontified nil 268 . 269) (nil fontified nil 195 . 268) (nil rear-nonsticky t 268 . 269)) (25489 47685 24315 854000) 0 nil])
+([nil nil ((311 . 352)) nil (25489 48468 596958 62000) 0 nil] [nil nil ((#("#XEN_PROD=\"/home/amoiseev/storage/work/xen_prod\"
+" 0 1 (face font-lock-comment-delimiter-face) 1 49 (face font-lock-comment-face)) . 145)) ((145 . 194)) (25489 47689 340360 944000) 0 nil])
+nil
+([nil nil ((270 . 271)) nil (25489 48468 596956 852000) 0 nil])
+nil
+([nil nil ((345 . 346)) nil (25489 48468 596955 292000) 0 nil])
+([nil current ((346 . 350)) nil (25489 48468 596950 902000) 0 nil])
+nil

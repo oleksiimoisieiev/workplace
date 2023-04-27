@@ -1,0 +1,24 @@
+#!/bin/bash
+pwd="/xen-4.16-imx/my-unikernel/apps/app-helloworld"
+app="helloworld_xen-arm64"
+# pwd="/xen-4.16-imx/my-unikernel/apps/app-httpreply/"
+# app="httpreply_xen-arm64"
+# pwd="/xen-4.16-imx/my-unikernel/apps/app-pvcalls/"
+# app="pvcalls_xen-arm64"
+
+do_target() {
+sudo chroot /opt/devroot_arm64/ /bin/bash -c "cd ${pwd};
+ make -j$(nproc) $1"
+#sudo chroot /opt/devroot_arm64/ /bin/bash -c "cd ${pwd}; \
+#make --always-make --dry-run \
+# | grep -wE 'gcc|g\+\+|c\+\+' \
+# | grep -w '\-c' \
+# | jq -nR '[inputs|{directory:".", command:., file: match(" [^ ]+$").string[1:]}]' \
+# > compile_commands.json"
+
+}
+
+do_target $1
+sshpass -p "1" scp -P 2222 ${pwd}/build/${app} debian@localhost:~/
+cp -rf ${pwd}/build/${app} /home/amoiseev/work/zephyr/simple_app/dom0/zephyr-dom0-xt/prebuilt/helloworld_xen-arm64
+scp /opt/devroot_arm64/xen-4.16-imx/my-unikernel/apps/app-helloworld/build/helloworld_xen-arm64 testrpi12:~/amoi

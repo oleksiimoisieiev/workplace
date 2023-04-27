@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+PS1="(ranger) $PS1"
+/bin/zsh

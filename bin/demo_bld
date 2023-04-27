@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/amoiseev/work/aos_demo/yocto
+
+source poky/oe-init-build-env build/$1/$2
+bitbake ${@:3}

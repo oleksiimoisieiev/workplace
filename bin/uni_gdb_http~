@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /opt/devroot_arm64/xen-4.16-imx/my-unikernel/unikraft
+
+echo "directory ."
+echo "add-symbol-file-auto ../apps/app-httpreply/build/httpreply_xen-arm64.elf.dbg"
+echo "add-symbol-file /opt/devroot_arm64/xen-4.16-imx/xen_qemu/xen/xen-syms"
+echo "target remote localhost:3333"
+gdb-multiarch --command=~/cmd ../apps/app-helloworld/build/httpreply_xen-arm64.elf.dbg

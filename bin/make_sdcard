@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/amoiseev/storage/work/xen_prod/build/build/deploy/
+
+./mk_sdcard_image.sh -p ./ -d $1 -c aos
+#./mk_sdcard_image.sh -p ./ -d $1 -c aos -u domf

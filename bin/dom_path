@@ -1,0 +1,8 @@
+#!/bin/bash
+#XEN_PROD="/home/amoiseev/storage/work/xen_prod"
+#DOM0="build/build/tmp/work/x86_64-xt-linux/dom0-image-thin-initramfs/1.0-r0/repo"
+#XEN_PROD="/home/amoiseev/storage/work/xen_prod"
+#DOMD="build/build/tmp/work/x86_64-xt-linux/domd-image-weston/1.0-r0/repo"
+
+#XEN_PROD="/home/amoiseev/work/aos/yocto"
+XEN_PROD="/home/amoiseev/work/aos_gen3/yocto"

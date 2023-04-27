@@ -1,0 +1,16 @@
+#!/bin/bash
+
+[ -z $1 ] && {
+    echo "add target"
+    exit 1
+}
+
+img=$@
+set --
+AOM_HOME="/home/amoiseev/work/imx/mta_moulin/yocto"
+
+cd ${AOM_HOME}
+pwd
+source poky/oe-init-build-env
+
+bitbake $img

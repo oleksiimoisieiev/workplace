@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /opt/devroot_arm64/xen-4.16-imx/my-unikernel/unikraft
+
+gdb-multiarch --command=~/cmd_pv ../apps/app-pvcalls/build/pvcalls_xen-arm64.elf.dbg

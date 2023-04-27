@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/amoiseev/work/zephyr/simple_app/aos_zephyr_sdk/aos_core_zephyr/
+
+gdb-multiarch --command=~/cmd_zephyr build/zephyr/zephyr.elf

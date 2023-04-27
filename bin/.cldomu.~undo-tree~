@@ -1,0 +1,17 @@
+(undo-tree-save-format-version . 1)
+"90b46bd96356e87f5ed6c624317abdc4f1493585"
+[nil nil nil nil (25489 47841 171566 879000) 0 nil]
+([nil nil ((13 . 14) (t 24445 52650 610308 977000)) nil (25489 47841 171565 599000) 0 nil])
+([nil nil ((14 . 23)) nil (25489 47841 171564 91000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t ws-butler-chg chg)) . -20) (undo-tree-id7 . -1) (#(" " 0 1 (fontified t ws-butler-chg chg)) . -21) (undo-tree-id8 . -1) (#("~" 0 1 (fontified t ws-butler-chg chg)) . -22) (undo-tree-id9 . -1) 23) nil (25489 47841 171562 572000) 0 nil])
+([nil nil ((20 . 29)) nil (25489 47841 171559 512000) 0 nil])
+([nil nil ((#("k" 0 1 (fontified t ws-butler-chg chg)) . -28) (undo-tree-id6 . -1) 29) nil (25489 47841 171558 267000) 0 nil])
+([nil nil ((28 . 31)) nil (25489 47841 171556 292000) 0 nil])
+([nil nil ((#("c" 0 1 (fontified t ws-butler-chg chg)) . -27) (undo-tree-id2 . -1) (#("l" 0 1 (fontified t ws-butler-chg chg)) . -28) (undo-tree-id3 . -1) (#("d" 0 1 (fontified t ws-butler-chg chg)) . -29) (undo-tree-id4 . -1) (#("o" 0 1 (fontified t ws-butler-chg chg)) . -30) (undo-tree-id5 . -1) 31) nil (25489 47841 171554 196000) 0 nil])
+([nil nil ((27 . 32)) nil (25489 47841 171548 644000) 0 nil])
+([nil nil ((21 . 36) (#("~/bin/dom_p" 0 11 (fontified t ws-butler-chg chg)) . -21) (undo-tree-id1 . -11) 32) nil (25489 47841 171546 934000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t ws-butler-chg chg)) . -35) (undo-tree-id0 . -1) 36) nil (25489 47841 171540 628000) 0 nil])
+([nil nil ((#("XEN_PROD=\"/home/amoiseev/storage/work/xen_prod\"
+" 0 8 (fontified t face font-lock-variable-name-face) 8 9 (fontified t) 9 47 (fontified t face font-lock-string-face) 47 48 (fontified t)) . 101) (undo-tree-id10 . -21) (undo-tree-id11 . -21) 122 (t 25489 47841 187070 404000)) nil (25489 47846 67555 858000) 0 nil])
+([nil current ((101 . 102)) nil (25489 47846 67536 635000) 0 nil])
+nil

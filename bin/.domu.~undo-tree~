@@ -1,0 +1,11 @@
+(undo-tree-save-format-version . 1)
+"3eafaaf6ea33d593a99024d8059604d62914d4e8"
+[nil nil nil nil (25489 47745 703212 334000) 0 nil]
+([nil nil ((13 . 29) (t 24679 3849 292325 753000)) nil (25489 47745 703210 724000) 0 nil])
+([nil nil ((20 . 35) (#("~/bin/dom" 0 9 (fontified t ws-butler-chg chg)) . -20) (undo-tree-id1 . -9) 29) nil (25489 47745 703209 602000) 0 nil])
+([nil nil ((34 . 35) (#(" " 0 1 (fontified t ws-butler-chg chg)) . 34) (undo-tree-id0 . -1) 35) nil (25489 47745 703206 283000) 0 nil])
+([nil current ((#("XEN_PROD=\"/home/amoiseev/storage/work/xen_prod\"
+" 0 8 (fontified t face font-lock-variable-name-face) 8 9 (fontified t) 9 47 (fontified t face font-lock-string-face) 47 48 (fontified t)) . 101)) nil (25489 47745 703263 444000) 0 nil])
+([nil nil ((#("DOMU=\"build/build/tmp/work/x86_64-xt-linux/domu-image-weston/1.0-r0/repo\"
+" 0 1 (fontified t ws-butler-chg delete face font-lock-variable-name-face) 1 4 (fontified t face font-lock-variable-name-face) 4 5 (fontified t) 5 73 (fontified t face font-lock-string-face) 73 74 (fontified t)) . 101)) ((nil ws-butler-chg delete 175 . 176) (101 . 175)) (25489 47745 703185 256000) 0 nil])
+nil
